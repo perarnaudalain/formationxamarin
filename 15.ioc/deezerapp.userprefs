@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{627A8FAF-D235-4100-A8A1-7B971AC32E1A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="deezerapp/Util/ServiceLocator.cs">
+    <Files>
+      <File FileName="deezerapp/App.xaml.cs" Line="2" Column="7" />
+      <File FileName="deezerapp/PresentationLayer/View/LoginView.xaml.cs" Line="7" Column="1" />
+      <File FileName="deezerapp/App.xaml" Line="7" Column="1" />
+      <File FileName="deezerapp/PresentationLayer/View/LoginView.xaml" Line="19" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="deezerapp/PresentationLayer/View/PlaylistView.xaml" Line="28" Column="1" />
+      <File FileName="deezerapp/PresentationLayer/View/PlaylistView.xaml.cs" Line="15" Column="60" />
+      <File FileName="unittest/Tests.cs" Line="18" Column="52" />
+      <File FileName="deezerapp/ServiceLayer/Playlist/PlaylistService.cs" Line="27" Column="17" />
+      <File FileName="deezerapp/Util/ServiceLocator.cs" Line="1" Column="1" />
+      <File FileName="deezerapp/PresentationLayer/ViewModel/PlaylistViewModel.cs" Line="41" Column="45" />
+      <File FileName="deezerapp/ServiceLayer/Model/DtoUI/PlaylistModelDtoUI.cs" Line="1" Column="1" />
+      <File FileName="deezerapp/ServiceLayer/Exception/AccessDeezerException.cs" Line="2" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.unittest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.deezerapp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DEBAB066-716C-4383-8ADE-425E3F5D0C07">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.deezerapp.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>

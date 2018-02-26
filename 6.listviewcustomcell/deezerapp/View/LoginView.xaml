@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ViewModel="clr-namespace:deezerapp.ViewModel; assembly=deezerapp"
+    x:Class="deezerapp.View.LoginView">
+    <ContentPage.BindingContext>
+        <ViewModel:LoginViewModel/>
+    </ContentPage.BindingContext>
+    <StackLayout Orientation="Vertical"  VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Label Text="id deezer" HorizontalOptions="Center" VerticalTextAlignment="Center"/>
+            <Entry Text="{Binding IdDeezer}" HorizontalTextAlignment="Center" WidthRequest="120"/>
+        </StackLayout>
+        <Button Command="{Binding LoginCommand}" Text="login" TextColor="White" BackgroundColor="Gray"/>
+    </StackLayout>
+</ContentPage>

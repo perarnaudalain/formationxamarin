@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:deezerapp" 
+    x:Class="deezerapp.deezerappPage">
+    <StackLayout Orientation="Vertical"  VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Label Text="id deezer" HorizontalOptions="Center" VerticalTextAlignment="Center"/>
+            <Entry x:Name="iddeezer" Text="" HorizontalTextAlignment="Center" WidthRequest="120"/>
+        </StackLayout>
+        <Button WidthRequest="100" HorizontalOptions="Center" BackgroundColor="Gray" Text="login" TextColor="White"/>
+    </StackLayout>
+</ContentPage>
